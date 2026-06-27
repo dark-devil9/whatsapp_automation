@@ -43,6 +43,7 @@ class lead_details(BaseModel):
     reportDate: str
     hospitalName: str
     branchName: str
+    reportTo: str
     summary: lead_summary
 
 def lead(details: lead_details):

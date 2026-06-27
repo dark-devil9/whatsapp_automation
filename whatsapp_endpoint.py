@@ -49,7 +49,7 @@ def lead(details: lead_details):
     payload = {
     "messaging_product": "whatsapp",
     "recipient_type": "individual",
-    "to": "RECIPENT_NUMBER", 
+    "to": RECIPENT_NUMBER, 
     "type": "template",
     "template": {
         "name": "lead_generation", 
@@ -89,7 +89,7 @@ def appointment_confirmed(details: UserDetails):
     payload = {
     "messaging_product": "whatsapp",
     "recipient_type": "individual",
-    "to": "RECIPENT_NUMBER",
+    "to": RECIPENT_NUMBER,
     "type": "template",
     "template": {
         "name": "appointment_confirm", 
@@ -124,7 +124,7 @@ def appointment_cancelled(details: UserDetails):
     payload = {
     "messaging_product": "whatsapp",
     "recipient_type": "individual",
-    "to": "RECIPENT_NUMBER",
+    "to": RECIPENT_NUMBER,
     "type": "template",
     "template": {
         "name": "cancel_appointment", 
@@ -160,7 +160,7 @@ def appointment_reschedule(details: UserDetails):
     payload = {
     "messaging_product": "whatsapp",
     "recipient_type": "individual",
-    "to": "RECIPENT_NUMBER",
+    "to": RECIPENT_NUMBER,
     "type": "template",
     "template": {
         "name": "reschedule_appointment", 
